@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useReducer } from "react";
-import AppReducer from "../redux/amountSlice";
+import AppReducer from "./amountSlice";
 const initialState = {
   transactions: [],
 };
