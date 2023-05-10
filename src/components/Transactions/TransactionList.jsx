@@ -11,7 +11,7 @@ export default function TransactionList() {
 
   return (
     <div className="pr-5 bg-white rounded-xl min-h-[190px]">
-      <h3 className="text-start mb-4 text-2xl font-medium text-[#4b3164]">
+      <h3 className="text-start mb-4 text-xl font-semibold text-[#4b3164]">
         Income and Expense
       </h3>
       {transactions.length > 0 ? (
@@ -25,7 +25,7 @@ export default function TransactionList() {
           className="flex items-center justify-between mb-5"
         >
           <div>
-            <p className="text-base font-normal text-neutral-600">
+            <p className="text-base font-medium text-neutral-600">
               {transaction.description}
             </p>
             <span

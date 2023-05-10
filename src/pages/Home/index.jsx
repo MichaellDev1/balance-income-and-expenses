@@ -9,8 +9,9 @@ import IcomExpensesContent from "../../components/IcomExpensesContent";
 
 export default function Home() {
   return (
-    <main className="flex justify-center items-center py-10 min-h-[100vh]">
-      <div className="flex md:flex-row w-full max-w-[80%] flex-col min-h-[550px]">
+    <main className="flex justify-center items-center py-4 min-h-[100vh] flex-col">
+      <h1 className="text-[#4b3164] font-semibold text-[22px] mb-3">Manage expenses and income</h1>
+      <div className="flex md:flex-row w-full max-w-[80%] flex-col max-h-[570px] min-h-[540px]">
         <div className="flex-1 flex flex-col">
           <div
             className="bg-white w-full md:h-[50%] min-h-[200px] mb-2 rounded-2xl p-10 flex flex-col justify-center items-center"
@@ -28,7 +29,7 @@ export default function Home() {
         </div>
         <div className="flex-1 md:ml-2 flex flex-col">
           <div
-            className="bg-white w-full md:h-[50%] min-h-[200px] mb-2 rounded-2xl p-10 flex flex-col justify-center items-center"
+            className="bg-white w-full md:h-[50%] min-h-[200px] mb-2 rounded-2xl p-10 flex flex-col justify-center items-center md:mt-0 mt-2"
             style={{ boxShadow: "0 0 20px rgba(0 0 0 / 5%)" }}
           >
             <IcomeExpenses />
